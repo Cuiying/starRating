@@ -1,0 +1,207 @@
+/*新闻等标题title样式*/
+.title {
+    cursor: pointer;
+    max-width: 450px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+
+/*土黄色：新增、搜索*/
+.btn1 {
+    background: #bc8949;
+    color: #fff;
+}
+/*淡蓝色：删除、重置*/
+.btn2 {
+    background: #6eacf1;
+    color: #fff;
+}
+/*主题蓝：新增组*/
+.btn3 {
+    background: #3f94f1;
+    color: #fff;
+}
+/*灰色：取消*/
+.btn4 {
+    background: #d2d2d2;
+    color: #fff;
+}
+.padding6-20 {
+    padding: 6px 20px;
+}
+.padding7-2 {
+    padding: 7px 2px;
+}
+.padding7-10 {
+    padding: 7px 10px;
+}
+.padding7-15 {
+    padding: 7px 15px;
+}
+
+.padding7-20 {
+    padding: 7px 20px;
+}
+
+.marginRight8 {
+    margin-right: 8px;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+.aHover {
+    cursor: pointer;
+}
+
+.aHover a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*Home*/
+.height100 {
+    height: 100%;
+}
+.height100-16 {
+    height: calc(100% - 16px);
+}
+.height100-16-add {
+    height: calc(100% + 16px);
+}
+.height100-24 {
+    height: calc(100% - 24px);
+}
+.height100-32 {
+    height: calc(100% - 32px);
+}
+.height100-36 {
+    height: calc(100% - 36px);
+}
+.height100-48 {
+    height: calc(100% - 36px);
+}
+.height100-8 {
+    height: calc(100% - 8px);
+}
+.height100-39 {
+    height: calc(100% - 39px);
+}
+.height50-18 {
+    height: calc(50% - 18px);
+}
+
+.height1 {
+    height: 250px;
+}
+.heightList {
+    height: 226px;
+    overflow-y: scroll;
+}
+.marginTop {
+    margin-top: 12px;
+}
+.title1 {
+    cursor: pointer;
+    max-width: 150px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+.title2 {
+    cursor: pointer;
+    max-width: 350px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+.title3 {
+    cursor: pointer;
+    max-width: 200px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+.tab-content {
+    margin: 0;
+    paddign: 0;
+    border: none;
+}
+
+body{margin: 0;font-family: "微软雅黑";background-color: #1F1F1F;}
+.lunbotuDiv {width: 100%;height: 100%; background-color: #464576;}
+.carousel-item{line-height: 100%;color: #fff;font-family:  Arial Black}
+
+/*FhSMS*/
+.bgUnselected {
+    background: url('static/images/unselected.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    width: 56px;
+    padding-left: 8px;
+}
+
+.bgInbox {
+    background: url('static/images/inbox.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    width: 56px;
+    padding-left: 8px;
+}
+
+.bgMailbox {
+    background: url('static/images/mailbox.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    width: 56px;
+    padding-left: 8px;
+}
+
+/*FhFile*/
+.yulantu{
+    z-index: 9999999999999999;
+    position:absolute;
+    border:3px solid #438EB9;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

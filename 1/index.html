@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>星级评分---第一种实现方式</title>
+	<style>
+		body,ul,li {
+			padding: 0;
+			margin: 0;
+		}
+		li {
+			list-style-type: none;
+		}
+		.rating {
+			width: 245px;
+			height: 45px;
+			margin: 100px auto;
+		}
+		.rating-item {
+			float: left;
+			width: 36px;
+			height: 45px;
+			background: url('img/rating.png') no-repeat;
+			background-position: -40px 0;
+			margin: 2px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+
+<!-- 第一种实现方式 -->
+<ul class="rating" id="rating">
+	<li class="rating-item" title="很不好"></li>
+	<li class="rating-item" title="不好"></li>
+	<li class="rating-item" title="一般"></li>
+	<li class="rating-item" title="好"></li>
+	<li class="rating-item" title="很好"></li>
+</ul>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script>
+	var num = 2;
+	var $rating = $('#rating');
+	var $item = $rating.find('.rating-item');
+
+	// 点亮
+	var lightOn = function(num) {
+		$item.each(function(index) {
+			if(index < num) {
+				$(this).css('background-position', '0 0');
+			}else{
+				$(this).css('background-position', '-40px 0');
+			}
+		})
+	}
+
+	// 初始化 
+	lightOn(num);
+
+	// 事件绑定
+	$item.on('mouseover', function() {
+		lightOn($(this).index() + 1);
+	}).on('click', function() {
+		num = $(this).index() + 1;
+	});
+	$rating.on('mouseout', function() {
+		lightOn(num);
+	})
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
